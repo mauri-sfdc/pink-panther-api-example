@@ -1,0 +1,46 @@
+#%RAML 1.0
+title: pink-panther-api-example
+description: Welcome to Pink Panther!! You can play with this local API Spec Project and dive through the different features.
+
+/ping:
+  description: Endpoint description
+  get:
+    description: Operation description
+    responses:
+      200:
+        body:
+          application/json:
+            example: {"response:":"OK"} 
+
+/example-endpoint:
+  get:
+    description: example-endpoint description
+    responses:
+      200:
+        body:
+          application/json:
+            properties:
+              result:
+                type: string
+                default: OK
+  delete:
+    description: This is a DELETE method example.
+    responses:
+      202: 
+        body:
+          application/json:
+            example:
+              message: Deleted successfully!
+  put:
+    body:
+      application/json:
+        examples: {
+          code: "123456",
+          itemName: "exampleItem"
+        }
+    responses:
+      201: 
+        body:
+          application/json:
+            example: 
+              message: Item added!!                        

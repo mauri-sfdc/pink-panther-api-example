@@ -1,0 +1,11 @@
+{
+  "main" : "pink-panther-api-example.raml",
+  "name" : "pink-panther-api-example",
+  "classifier" : "raml",
+  "tags" : [ ],
+  "groupId" : "b9506efc-3b32-4a28-968e-38929bd95ea3",
+  "assetId" : "pink-panther-api-example",
+  "version" : "1.0.0",
+  "apiVersion" : "",
+  "dependencies" : [ ]
+}
